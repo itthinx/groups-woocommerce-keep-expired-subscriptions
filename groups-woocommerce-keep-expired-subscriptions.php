@@ -37,7 +37,7 @@ class Groups_WooCommerce_KES {
 	 * Adds the status update filter.
 	 */
 	public static function init() {
-		add_filter( 'groups_woocommerce_handle_woocommerce_subscription_status_updated', array( __CLASS__, 'udpated' ), 10, 4 );
+		add_filter( 'groups_woocommerce_handle_woocommerce_subscription_status_updated', array( __CLASS__, 'updated' ), 10, 4 );
 	}
 
 	/**
